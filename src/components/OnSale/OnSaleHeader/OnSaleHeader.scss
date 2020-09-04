@@ -1,0 +1,39 @@
+.onSaleHeader {
+  height: 33px;
+  padding: 0 12px 0 60px;
+  background-color: rgba(0, 0, 0, 0.0001);
+  border: 1px solid rgba(255,255,255,.1);
+  margin-bottom: 14px;
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+
+  &__release {
+   flex: 0 1 60px;
+  }
+  &__manufacturer {
+    flex: 0 1 90px;
+    text-align: center;
+  }
+  &__model {
+    flex: 0 1 45px;
+  }
+  &__hash {
+    flex: 0 1 99px;
+  }
+  &__algorithm {
+    flex: 0 1 74px;
+  }
+  &__efficiency {
+    flex: 0 1 75px;
+  }
+  &__profit {
+    flex: 0 1 98px;
+  }
+  &__price {
+    flex: 0 1 99px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,53 @@
+.onSaleItem {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 15px;
+  background-color: rgba(255,255,255,.1);
+  background-image: url('../../../assets/img/squares-onsale.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #C4C4C4;
+  margin-bottom: 14px;
+  cursor: pointer;
+  
+  &__star {
+    margin-right: 15px;
+  }
+  &__arrow {
+    margin-right: 13px;
+  }
+  &__release {
+   flex: 0 1 60px;
+  }
+  &__manufacturer {
+    flex: 0 1 90px;
+    text-align: center;
+  }
+  &__model {
+    flex: 0 1 45px;
+  }
+  &__hash {
+    flex: 0 1 99px;
+  }
+  &__algorithm {
+    flex: 0 1 74px;
+  }
+  &__efficiency {
+    flex: 0 1 75px;
+  }
+  &__profit {
+    flex: 0 1 98px;
+    span {
+      color: #00A651;
+    }
+  }
+  &__price {
+    flex: 0 1 99px;
+    color: #fff;
+  }
+}

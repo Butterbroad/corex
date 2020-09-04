@@ -1,0 +1,12 @@
+.filter {
+  flex: 0 1 215px;
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
