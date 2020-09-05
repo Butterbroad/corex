@@ -1,5 +1,5 @@
 {
-  "name": "test-corex",
+  "name": "corex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

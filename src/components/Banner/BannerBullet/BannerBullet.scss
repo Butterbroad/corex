@@ -1,6 +1,10 @@
 .bannerBullet {
   cursor: pointer;
   position: relative;
+  margin-bottom: 3px;
+  &:last-child {
+    margin-bottom: 0;
+  }
   &::before {
     content: '';
     width: 2px;

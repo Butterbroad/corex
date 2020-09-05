@@ -3,12 +3,34 @@
 }
 .app {
   background-color: #0B0C23;
-  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   &__wrapper {
-    max-width: 1260px;
-    padding: 100px 90px 0;
+    max-width: 1440px;
+    width: 100%;
+    padding: 80px 90px 30px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 75px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+  }
+  &__footer {
+    flex: 0 0 auto;
+  }
+}
+@media (max-width: 1023px) {
+  .app {
+    &__wrapper {
+      padding: 0 30px 30px;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .app {
+    &__wrapper {
+      padding: 0 15px 30px;
+    }
   }
 }

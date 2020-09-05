@@ -20,10 +20,10 @@ function Header() {
         <img src={logo2} alt="" />
       </a>
       <Lang />
-      <a href="/" className="header__cart">
+      <div className="header__cart">
         <img src={cart} alt="" />
         <span>{count.length}</span>
-      </a>
+      </div>
     </div>
   )
 }

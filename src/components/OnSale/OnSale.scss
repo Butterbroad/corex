@@ -10,3 +10,18 @@
     color: #fff;
   }
 }
+
+@media (max-width: 1439px) {
+  .onSale {
+    flex: 0 1 572px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .onSale {
+    flex: 0 1 710px;
+    &__title {
+      display: none;
+    }
+  }
+}

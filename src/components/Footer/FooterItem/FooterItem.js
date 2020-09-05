@@ -1,13 +1,15 @@
 import React from 'react'
 import './FooterItem.scss'
+import Dots from '../../Dots/Dots'
 
 function FooterItem({ img }) {
   return (
-    <a href="/" className="footerItem">
+    <div className="footerItem">
+      <Dots />
       <div className="footerItem__img">
         <img src={img} alt="" />
       </div>
-    </a>
+    </div>
   )
 }
 

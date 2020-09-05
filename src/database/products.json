@@ -8,8 +8,38 @@
     "efficiency": "8.00j/H/s",
     "profit": "$122.88 / ",
     "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "1"
+    "price": "$137.00 - $217.00",
+    "id": "1",
+    "img": "/static/media/itemMob.f85bf7d1.png",
+    "name": "USED Antminer S9"
+  },
+  {
+    "release": "Mar 2019",
+    "manufacturer": "Bitmain",
+    "model": "S9i",
+    "hash": "10.5-14.5 th/s",
+    "algorithm": "SHA-256",
+    "efficiency": "8.00j/H/s",
+    "profit": "$0.04 / ",
+    "duration": "day",
+    "price": "$137.00 - $217.00",
+    "id": "2",
+    "img": "/static/media/itemMob1.6bf60397.png",
+    "name": "Aorus RTX 2070 8G"
+  },
+  {
+    "release": "Mar 2019",
+    "manufacturer": "Bitmain",
+    "model": "S9i",
+    "hash": "10.5-14.5 th/s",
+    "algorithm": "SHA-256",
+    "efficiency": "8.00j/H/s",
+    "profit": "$0.04 / ",
+    "duration": "day",
+    "price": "$137.00 - $217.00",
+    "id": "3",
+    "img": "/static/media/itemMob.f85bf7d1.png",
+    "name": "USED Antminer S9"
   },
   {
     "release": "Mar 2019",
@@ -20,8 +50,38 @@
     "efficiency": "8.00j/H/s",
     "profit": "$122.88 / ",
     "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "2"
+    "price": "$137.00 - $217.00",
+    "id": "4",
+    "img": "/static/media/itemMob1.6bf60397.png",
+    "name": "Aorus RTX 2070 8G"
+  },
+  {
+    "release": "Mar 2019",
+    "manufacturer": "Bitmain",
+    "model": "S9i",
+    "hash": "10.5-14.5 th/s",
+    "algorithm": "SHA-256",
+    "efficiency": "8.00j/H/s",
+    "profit": "$0.04 / ",
+    "duration": "day",
+    "price": "$137.00 - $217.00",
+    "id": "5",
+    "img": "/static/media/itemMob.f85bf7d1.png",
+    "name": "USED Antminer S9"
+  },
+  {
+    "release": "Mar 2019",
+    "manufacturer": "Bitmain",
+    "model": "S9i",
+    "hash": "10.5-14.5 th/s",
+    "algorithm": "SHA-256",
+    "efficiency": "8.00j/H/s",
+    "profit": "$0.04 / ",
+    "duration": "day",
+    "price": "$137.00 - $217.00",
+    "id": "6",
+    "img": "/static/media/itemMob1.6bf60397.png",
+    "name": "Aorus RTX 2070 8G"
   },
   {
     "release": "Mar 2019",
@@ -32,8 +92,38 @@
     "efficiency": "8.00j/H/s",
     "profit": "$122.88 / ",
     "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "3"
+    "price": "$137.00 - $217.00",
+    "id": "7",
+    "img": "/static/media/itemMob.f85bf7d1.png",
+    "name": "USED Antminer S9"
+  },
+  {
+    "release": "Mar 2019",
+    "manufacturer": "Bitmain",
+    "model": "S9i",
+    "hash": "10.5-14.5 th/s",
+    "algorithm": "SHA-256",
+    "efficiency": "8.00j/H/s",
+    "profit": "$0.04 / ",
+    "duration": "day",
+    "price": "$137.00 - $217.00",
+    "id": "8",
+    "img": "/static/media/itemMob1.6bf60397.png",
+    "name": "Aorus RTX 2070 8G"
+  },
+  {
+    "release": "Mar 2019",
+    "manufacturer": "Bitmain",
+    "model": "S9i",
+    "hash": "10.5-14.5 th/s",
+    "algorithm": "SHA-256",
+    "efficiency": "8.00j/H/s",
+    "profit": "$0.04 / ",
+    "duration": "day",
+    "price": "$137.00 - $217.00",
+    "id": "9",
+    "img": "/static/media/itemMob.f85bf7d1.png",
+    "name": "USED Antminer S9"
   },
   {
     "release": "Mar 2019",
@@ -44,8 +134,10 @@
     "efficiency": "8.00j/H/s",
     "profit": "$122.88 / ",
     "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "4"
+    "price": "$137.00 - $217.00",
+    "id": "10",
+    "img": "/static/media/itemMob1.6bf60397.png",
+    "name": "Aorus RTX 2070 8G"
   },
   {
     "release": "Mar 2019",
@@ -54,10 +146,12 @@
     "hash": "10.5-14.5 th/s",
     "algorithm": "SHA-256",
     "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
+    "profit": "$0.04 / ",
     "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "5"
+    "price": "$137.00 - $217.00",
+    "id": "11",
+    "img": "/static/media/itemMob.f85bf7d1.png",
+    "name": "USED Antminer S9"
   },
   {
     "release": "Mar 2019",
@@ -66,81 +160,11 @@
     "hash": "10.5-14.5 th/s",
     "algorithm": "SHA-256",
     "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
+    "profit": "$0.04 / ",
     "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "6"
-  },
-  {
-    "release": "Mar 2019",
-    "manufacturer": "Bitmain",
-    "model": "S9i",
-    "hash": "10.5-14.5 th/s",
-    "algorithm": "SHA-256",
-    "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
-    "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "7"
-  },
-  {
-    "release": "Mar 2019",
-    "manufacturer": "Bitmain",
-    "model": "S9i",
-    "hash": "10.5-14.5 th/s",
-    "algorithm": "SHA-256",
-    "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
-    "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "8"
-  },
-  {
-    "release": "Mar 2019",
-    "manufacturer": "Bitmain",
-    "model": "S9i",
-    "hash": "10.5-14.5 th/s",
-    "algorithm": "SHA-256",
-    "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
-    "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "9"
-  },
-  {
-    "release": "Mar 2019",
-    "manufacturer": "Bitmain",
-    "model": "S9i",
-    "hash": "10.5-14.5 th/s",
-    "algorithm": "SHA-256",
-    "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
-    "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "10"
-  },
-  {
-    "release": "Mar 2019",
-    "manufacturer": "Bitmain",
-    "model": "S9i",
-    "hash": "10.5-14.5 th/s",
-    "algorithm": "SHA-256",
-    "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
-    "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "11"
-  },
-  {
-    "release": "Mar 2019",
-    "manufacturer": "Bitmain",
-    "model": "S9i",
-    "hash": "10.5-14.5 th/s",
-    "algorithm": "SHA-256",
-    "efficiency": "8.00j/H/s",
-    "profit": "$122.88 / ",
-    "duration": "day",
-    "price": "$137.00-$217.00",
-    "id": "12"
+    "price": "$137.00 - $217.00",
+    "id": "12",
+    "img": "/static/media/itemMob1.6bf60397.png",
+    "name": "Aorus RTX 2070 8G"
   }
 ]

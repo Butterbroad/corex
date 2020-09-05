@@ -1,15 +1,20 @@
 .onSaleHeader {
-  height: 33px;
-  padding: 0 12px 0 60px;
-  background-color: rgba(0, 0, 0, 0.0001);
+  background-color: rgba(255, 255, 255, .04);
   border: 1px solid rgba(255,255,255,.1);
-  margin-bottom: 14px;
-  align-items: center;
-  display: flex;
+  margin-bottom: 15px;
   font-size: 12px;
   line-height: 15px;
   color: #fff;
+  position: relative;
 
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    padding: 0 12px 0 60px;
+    position: relative;
+    z-index: 1;
+  }
   &__release {
    flex: 0 1 60px;
   }
@@ -22,6 +27,7 @@
   }
   &__hash {
     flex: 0 1 99px;
+    text-align: center;
   }
   &__algorithm {
     flex: 0 1 74px;
@@ -35,5 +41,19 @@
   &__price {
     flex: 0 1 99px;
     text-align: center;
+  }
+}
+
+@media (max-width: 1439px) {
+  .onSaleHeader {
+    &__release {
+      display: none;
+    }
+    &__algorithm {
+      display: none;
+    }
+    &__manufacturer {
+      text-align: left;
+    }
   }
 }

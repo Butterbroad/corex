@@ -16,7 +16,9 @@ function App() {
         <OnSale />
         <Banner />
       </div>
-      <Footer />
+      <div className="app__footer">
+        <Footer />
+      </div>
     </div>
   );
 }
