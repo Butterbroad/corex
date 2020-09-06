@@ -1,20 +1,35 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Lang.scss'
 import earth from '../../../assets/img/earth.svg'
 
 function Lang() {
-  const [lang, setLang] = useState();
+  const languages = [
+    { short: "en", long: "ENG" },
+    { short: "sp", long: "ESP" },
+    { short: "ru", long: "RUS" },
+    { short: "cn", long: "CHN" },
+    { short: "ko", long: "KOR" }
+  ]
+
+  const [currentLang, setCurrentLang] = useState(languages[0]);
+  const [nextLang, setNextLang] = useState([]);
+
+
+  useEffect(() => {
+    setNextLang(languages.filter(elem => elem.short !== currentLang.short))
+  }, [currentLang])
+
   return (
     <div className="lang">
       <div className="lang__img">
         <img src={earth} alt="" />
       </div>
-      <div className="lang__text">ENG</div>
+      <div className="lang__text">{currentLang.long}</div>
+
       <div className="lang__dropdown">
-        <div className="lang__dropdown-item">ESP</div>
-        <div className="lang__dropdown-item">RUS</div>
-        <div className="lang__dropdown-item">CHN</div>
-        <div className="lang__dropdown-item">KOR</div>
+        {nextLang.map((elem, index) => (
+          <div key={index} className="lang__dropdown-item" onClick={() => setCurrentLang(elem)}>{elem.long}</div>
+        ))}
       </div>
     </div>
   )

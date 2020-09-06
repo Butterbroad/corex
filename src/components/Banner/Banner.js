@@ -3,7 +3,6 @@ import './Banner.scss'
 import banner from '../../assets/img/banner.svg'
 import banner1 from '../../assets/img/banner1.svg'
 import banner2 from '../../assets/img/banner2.svg'
-import bannerBullet from './BannerBullet/BannerBullet'
 import BannerBullet from './BannerBullet/BannerBullet'
 
 function Banner() {

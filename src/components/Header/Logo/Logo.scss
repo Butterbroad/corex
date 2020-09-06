@@ -1,0 +1,29 @@
+.logo {
+  margin-right: 24px;
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  img:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .logo{
+      max-width: 105px;
+      margin-right: 0;
+      img:first-child {
+        display: none;
+      }
+      img:last-child {
+        display: block;
+      }
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+      max-width: 65px;
+    }   
+}

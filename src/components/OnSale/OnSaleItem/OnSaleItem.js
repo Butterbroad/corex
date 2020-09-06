@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux'
 import { addToCart } from '../../../Store/actions/cart'
 import Dots from '../../Dots/Dots'
 
+
 function OnSaleItem({ info }) {
   const dispatch = useDispatch()
 
@@ -42,7 +43,7 @@ function OnSaleItem({ info }) {
           {info.duration}
         </div>
         <div className="onSaleItem__price">
-          {info.price}
+          {`$${info.minPrice} - $${info.maxPrice}`}
         </div>
       </div>
     </div>

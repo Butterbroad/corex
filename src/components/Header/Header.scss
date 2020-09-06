@@ -15,35 +15,6 @@
     }
   }
 
-  &__logo {
-    margin-right: 24px;
-    img {
-      max-width: 100%;
-      display: block;
-    }
-    img:last-child {
-      display: none;
-    }
-  }
-  &__cart {
-    margin-left: auto;
-    position: relative;
-    cursor: pointer;
-    img {
-      max-width: 100%;
-    }
-    span {
-      position: absolute;
-      width: 10px;
-      top: -6px;
-      right: 0;
-      color: #fff;
-      background-color: #0B0C23;
-      font-size: 12px;
-      line-height: 16px;
-      text-align: right;
-    }
-  }
 }
 
 @media (max-width: 1023px) {
@@ -54,23 +25,6 @@
     &__burger {
       display: block;
       max-width: 31px;
-    }
-    &__logo {
-      max-width: 105px;
-      margin-right: 0;
-      img:first-child {
-        display: none;
-      }
-      img:last-child {
-        display: block;
-      }
-    }
-    &__cart {
-      margin-left: 0;
-      margin-top: 5px;
-      img {
-        width: 39px;
-      }
     }
   }
 }

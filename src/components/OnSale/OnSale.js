@@ -7,18 +7,22 @@ import { getProductsAsync } from '../../Store/actions/products'
 import Loader from '../Loader/Loader'
 import OnSaleItemMob from './OnSaleItemMob/OnSaleItemMob'
 import itemImg from '../../assets/img/itemMob.png'
-import itemImg1 from '../../assets/img/itemMob1.png'
 
 function OnSale() {
-  const mobImg = [itemImg, itemImg1]
+  const dispatch = useDispatch();
+
+  const item = useSelector(store => store.products.allProducts)
+  const loading = useSelector(store => store.loader.show)
 
   const [isMobile, setIsmobile] = useState(false);
 
   useEffect(() => {
 
+    dispatch(getProductsAsync());
+
     const resize = () => {
 
-      setIsmobile(window.innerWidth < 1023);
+      setIsmobile(window.innerWidth < 1024);
 
     };
 
@@ -29,15 +33,6 @@ function OnSale() {
     return () => window.removeEventListener('resize', resize);
 
   }, []);
-
-  const dispatch = useDispatch();
-
-  const item = useSelector(store => store.products.allProducts)
-  const loading = useSelector(store => store.loader.show)
-
-  useEffect(() => {
-    dispatch(getProductsAsync())
-  }, [])
 
   return (
     <div className="onSale">
@@ -50,7 +45,7 @@ function OnSale() {
             <>
               {loading ? <Loader />
                 : item.map((item, index) => (
-                  <OnSaleItemMob key={index} info={item} />
+                  <OnSaleItemMob key={index} info={item} img={itemImg} />
                 ))}
             </>
             :

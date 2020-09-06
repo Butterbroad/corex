@@ -4,10 +4,11 @@ import star from '../../../assets/img/starBig.svg'
 import { addToCart } from '../../../Store/actions/cart'
 import { useDispatch } from 'react-redux'
 import Dots from '../../Dots/Dots'
-import img from '../../../assets/img/itemMob1.png'
 
 
-function OnSaleItemMob({ info }) {
+
+function OnSaleItemMob({ info, img }) {
+
   const dispatch = useDispatch()
   return (
     <div className="onSaleItemMob" onClick={() => dispatch(addToCart(info.id))}>
@@ -27,7 +28,7 @@ function OnSaleItemMob({ info }) {
       </div>
 
       <div className="onSaleItemMob__img">
-        <img src={info.img} alt="" />
+        <img src={img} alt="" />
       </div>
 
       <div className="onSaleItemMob__price">
